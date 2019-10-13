@@ -1,3 +1,3 @@
 docs is written in Vietnamese
 
-[English version here](Slippery-shellcod
+[English version here](https://github.com/cheaterdxd/PICOCTF_2019/wiki/Slippery-shellcode)
