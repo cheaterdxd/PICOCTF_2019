@@ -23,6 +23,7 @@ void display_flag() {
 }
 
 char key[KEY_LEN];
+
 void read_canary() {
   FILE *f = fopen("/problems/canary_6_c4c3b4565f3c8c0c855907b211b63efe/canary.txt","r");
   if (f == NULL) {
