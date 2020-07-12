@@ -104,7 +104,7 @@ int main(int argc, char **argv) {
 
   setbuf(stdout, NULL);
 
-  char buf[LINE_MAX];
+  char buf[LINE_MAX]; //256
 
   memset(anon_user.access_code, 0, ACCESS_CODE_LEN); //ACCESS_CODE_LEN 16
   anon_user.username = NULL;
